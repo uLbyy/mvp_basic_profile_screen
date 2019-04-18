@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="@dimen/width_movie"
+                android:layout_height="@dimen/height_movie"
+                android:layout_margin="@dimen/spacing_normal"
+                android:background="@color/colorAccent"
+                android:padding="@dimen/spacing_micro">
+
+    <android.support.v7.widget.AppCompatTextView
+            android:id="@+id/text_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="12sp"
+            android:textColor="@android:color/white"/>
+
+    <android.support.v7.widget.AppCompatImageView
+            android:layout_below="@+id/text_title"
+            android:layout_above="@+id/layout_like"
+            android:id="@+id/image_movie_bg"
+            android:scaleType="centerCrop"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+    <LinearLayout
+            android:id="@+id/layout_like"
+            android:layout_alignParentBottom="true"
+            android:gravity="right"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <android.support.v7.widget.AppCompatTextView
+                android:layout_marginEnd="@dimen/spacing_micro"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/text_like_count"
+                android:textColor="@android:color/white"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+
+        <android.support.v7.widget.AppCompatImageView
+                android:layout_gravity="center_vertical"
+                android:id="@+id/image_like"
+                android:layout_width="@dimen/like_size"
+                android:layout_height="@dimen/like_size"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

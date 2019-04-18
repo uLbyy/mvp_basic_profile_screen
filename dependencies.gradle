@@ -1,0 +1,33 @@
+ext {
+    kotlinVersion = '1.3.30'
+    supportVersion = '28.0.0'
+    constraintVersion = '1.1.3'
+    daggerVersion = '2.22.1'
+    retrofitVersion = '2.5.0'
+    okHttpVersion = '3.9.1'
+    gsonVersion = '2.8.5'
+    rxKotlinVersion = '2.3.0'
+    rxAndroidVersion = '2.1.1'
+    junitVersion = "4.12"
+    glideVersion = '4.9.0'
+
+    appDependencies = [
+            kotlin           : "org.jetbrains.kotlin:kotlin-stdlib-jdk7:${kotlinVersion}",
+            support          : "com.android.support:appcompat-v7:${supportVersion}",
+            design           : "com.android.support:design:${supportVersion}",
+            constraint       : "com.android.support.constraint:constraint-layout:${constraintVersion}",
+            daggerCompiler   : "com.google.dagger:dagger-compiler:${daggerVersion}",
+            dagger           : "com.google.dagger:dagger:${daggerVersion}",
+            retrofit         : "com.squareup.retrofit2:retrofit:${retrofitVersion}",
+            retrofitConverter: "com.squareup.retrofit2:converter-gson:${retrofitVersion}",
+            retrofitAdapter  : "com.squareup.retrofit2:adapter-rxjava2:${retrofitVersion}",
+            okHttp           : "com.squareup.okhttp3:okhttp:${okHttpVersion}",
+            okHttpLogger     : "com.squareup.okhttp3:logging-interceptor:${okHttpVersion}",
+            gson             : "com.google.code.gson:gson:${gsonVersion}",
+            rxKotlin         : "io.reactivex.rxjava2:rxkotlin:${rxKotlinVersion}",
+            rxAndroid        : "io.reactivex.rxjava2:rxandroid:${rxAndroidVersion}",
+            junit            : "junit:junit:${junitVersion}",
+            glide            : "com.github.bumptech.glide:glide:${glideVersion}",
+            glideAnnotation  : "com.github.bumptech.glide:compiler:${glideVersion}"
+    ]
+}

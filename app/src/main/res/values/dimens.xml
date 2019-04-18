@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="spacing_micro">4dp</dimen>
+    <dimen name="spacing_normal">8dp</dimen>
+    <dimen name="spacing_large">12dp</dimen>
+    <dimen name="padding_normal">16dp</dimen>
+    <dimen name="padding_large">24dp</dimen>
+    <dimen name="spacing_huge">32dp</dimen>
+
+    <dimen name="size_profile">72dp</dimen>
+    <dimen name="height_profile_bg">250dp</dimen>
+    <dimen name="size_follower">45dp</dimen>
+    <dimen name="width_movie">100dp</dimen>
+    <dimen name="height_movie">150dp</dimen>
+    <dimen name="like_size">25dp</dimen>
+
+</resources>
